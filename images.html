@@ -12,26 +12,35 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-
-        <h1>GOOGLE IMAGES</h1>
+        <div class="row" style="background-color: white; height:200px">
+            <div class="col-sm-5"></div>
+            <div class="col-sm-5"></div>
+            <div class="col-sm-1"><a class="nav-link" href="index.html" >Google search</a></div>
+        </div>
         
-        <div class="row">
-            <div class="col-sm-11"></div>
-            <div class="col-sm-1"> <a class="nav-link" href="index.html">Index</a><a class="nav-link" href="index.html">Index</a></div>
-          </div>
-  
-        <div class="container-fluid">
-            <div class="abs-center">
-                <form action="https://www.google.com/search" class="form">
-                    <div class="form-group">
-                        <input id="escribir" type="text" name="q">
-                        <input type="hidden" name="tbm" value="isch"> 
+        <div class="row" style="background-color: white; height: 160px;">
+                    <div class="col-lg-12">
+                        <img src="google_imagen.png" class="mx-auto d-block" style="width:25%">
                     </div>
+
+                       
+                    
+               
+        </div>
+
+            <div class="container-fluid" style="background-color: white; height: 100px;"> 
+                          
+                <form action="https://google.com/search" class="form" style="margin: 0 auto;">
+                    
                     <div class="form-group">
-                        <input id="boton" type="submit" value="buscar">
+                        <input type="text" class="form-control" name="q" style="border-radius: 15px;">
+                        <input type="hidden" class="form-control" name="tbm" value="isch" style="border-radius: 15px;">
                     </div>
-                 </form>
+                                       
+
+                </form>
             </div>
-        </div>  
-    </body>
+         
+            
+    </body> 
 </html>
